@@ -8,23 +8,23 @@
 	<h1>Календар</h1>
 
 <div>
-<label for="days">Кількість днів у місяці:</label>
-	<select id="days" name="days">
-	  <option value="28">28</option>
-	  <option value="29">29</option>
-	  <option value="30">30</option>
-	  <option value="31">31</option>
+	<label for="daysNumber">Кількість днів у місяці:</label>
+	<select id="daysNumber" name="days">
+		<option value="28">28</option>
+		<option value="29">29</option>
+		<option value="30">30</option>
+		<option value="31">31</option>
 	</select>
 
-<label for="day">З якого дня починається місяць:</label>
-	<select id="day" name="day">
-	  <option value="Mo">Понеділок</option>
-	  <option value="Tu">Вівторок</option>
-	  <option value="We">Середа</option>
-	  <option value="Th">Четвер</option>
-<option value="Fr">П'ятниця</option>
-<option value="Sa">Субота</option>
-<option value="Su">Неділя</option>
+	<label for="dayOfWeek">З якого дня починається місяць:</label>
+	<select id="dayOfWeek" name="day of the week">
+		<option value="Mo">Понеділок</option>
+		<option value="Tu">Вівторок</option>
+		<option value="We">Середа</option>
+		<option value="Th">Четвер</option>
+		<option value="Fr">П'ятниця</option>
+		<option value="Sa">Субота</option>
+		<option value="Su">Неділя</option>
 	</select>
 
 </div>
@@ -99,7 +99,7 @@
 			</tr>
 		</tbody>
 	</table>
-<button>Створити календар</button>
+<button id="button">Створити календар</button>
  <script src="app.js"></script>
 </body>
 </html>
